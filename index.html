@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Weather</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="https://img.icons8.com/color/48/000000/partly-cloudy-day--v1.png" alt="Pk Weather Logo">
+            <h1>World Weather</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Enter city name...">
+            <ul id="suggestions"></ul>
+        </div>
+        <div id="weather-display">
+            <h2 id="location"></h2>
+            <img id="weather-icon" src="" alt="Weather Icon">
+            <div id="temperature"></div>
+            <div id="condition"></div>
+            <div class="weather-details">
+                <div class="detail"><strong>Humidity:</strong> <span id="humidity"></span></div>
+                <div class="detail"><strong>Wind Speed:</strong> <span id="wind-speed"></span></div>
+                <div class="detail"><strong>Feels Like:</strong> <span id="feels-like"></span></div>
+                <div class="detail"><strong>Pressure:</strong> <span id="pressure"></span></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 World Weather. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
